@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: black; */
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container div {
+  background-color: black;
+  margin: 0.5px;
+  height: 5rem;
+  width: 5rem;
+  opacity: 1;
+}
+
+div .complete {
+  opacity: 0;
+}
+
+div .in-progress {
+  opacity: 0.5;
+}
