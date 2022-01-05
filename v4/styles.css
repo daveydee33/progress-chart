@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: black;
+  text-align: center;
+}
+
+.container div {
+  background-color: lightgreen;
+  margin: 1px;
+  height: 1rem;
+  width: 1rem;
+  opacity: 0.2;
+}
+
+div .complete {
+  opacity: 1;
+}
+
+div .in-progress {
+  opacity: 0.5;
+}
+
+div .one {
+  background-color: #ffc300;
+}
+
+div .two {
+  background-color: #ff5733;
+}
+
+div .three {
+  background-color: #c70039;
+}
+
+div .four {
+  background-color: #900c3f;
+}
+
+div .five {
+  background-color: #581845;
+}
